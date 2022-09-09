@@ -29,7 +29,7 @@ keymap("n", "ss", ":split <CR>", opts)
 keymap("n", "sv", ":vsplit <CR>", opts)
 
 -- Opens the side bar 
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>b", ":Lex 30<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)

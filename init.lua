@@ -1,5 +1,6 @@
-require "mohclassic.options"
 require "mohclassic.keymaps"
 require "mohclassic.plugins"
+require "mohclassic.options"
 require "mohclassic.cmp"
-vim.cmd "colorscheme darkplus"
+require "mohclassic.colorscheme"
+require "mohclassic.lsp"
